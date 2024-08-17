@@ -1,5 +1,7 @@
 # Likelihood ratio to evaluate handwriting evidence using similarity index
 
+#### Authors: Jędrzej Wydra, Szymon Matuszewski
+
 ## Abstract
 
 Previous methods to evaluate evidence from handwriting examinations were usually associated with a redefinition of how these examinations are to be made. Here we propose the likelihood ratio method for handwriting evidence evaluation which is fully compatible with the current handwriting examination protocols. The method is focused on the similarity between handwriting samples, quantified using Jaccard index from results of a usual forensic handwriting comparison. The numerator of the likelihood ratio is the probability of a given class of similarity, assuming that a given person wrote the questioned sample. The denominator is the probability of the same class of similarity, assuming that a randomly selected person wrote questioned sample. The similarity distribution to quantify the numerator is derived from comparisons across reference handwritings. To calculate the denominator we propose to develop similarity distributions relevant for particular forensic scenarios. In the proof-of-a-concept study, we developed the distribution for the simulation scenario.

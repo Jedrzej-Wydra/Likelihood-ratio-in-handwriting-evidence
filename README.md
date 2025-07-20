@@ -2,6 +2,12 @@
 
 #### Authors: Jędrzej Wydra, Szymon Matuszewski
 
+## Short summary
+Implemented a likelihood ratio framework in R to evaluate handwriting evidence by modeling similarity distributions with beta distributions and computing LR scores from Jaccard-based similarity indices.
+
+## Technical summary
+Developed a statistical pipeline in R combining Jaccard similarity calculations, beta distribution fitting, and Bayesian likelihood ratio computation for handwriting evidence. Used minimum distance estimators (MDE) with Cramér–von Mises distances to fit similarity distributions, then derived numerator/denominator probabilities for LR. Applied chi-squared tests for distribution validation and visualized similarity profiles using heatmaps and histograms for interpretability.
+
 ## Abstract
 
 Previous methods to evaluate evidence from handwriting examinations were usually associated with a redefinition of how these examinations are to be made. Here we propose the likelihood ratio method for handwriting evidence evaluation which is fully compatible with the current handwriting examination protocols. The method is focused on the similarity between handwriting samples, quantified using Jaccard index from results of a usual forensic handwriting comparison. The numerator of the likelihood ratio is the probability of a given class of similarity, assuming that a given person wrote the questioned sample. The denominator is the probability of the same class of similarity, assuming that a randomly selected person wrote questioned sample. The similarity distribution to quantify the numerator is derived from comparisons across reference handwritings. To calculate the denominator we propose to develop similarity distributions relevant for particular forensic scenarios. In the proof-of-a-concept study, we developed the distribution for the simulation scenario.
